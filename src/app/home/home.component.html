@@ -1,0 +1,13 @@
+<div class="universo">
+    <h1>Productos:</h1>
+    <div class="flex-container">
+        <div *ngFor="let item of misProductos" class="caja">
+            <img src={{item.image}} alt="imagen">
+            <hr>
+            <p>{{item.name}}</p>
+            <h3>Especie: {{item.species}}</h3>
+            <h3>Genero: {{item.gender}}</h3>
+            <button>Dudas</button>
+        </div><br>
+    </div>
+</div>
